@@ -1,0 +1,5 @@
+CREATE USER 'user1'@'%d' IDENTIFIED BY 'passwd';
+
+GRANT ALL PRIVILEGES ON db_model.* TO 'user1'@'%';
+
+FLUSH PRIVILEGES;
